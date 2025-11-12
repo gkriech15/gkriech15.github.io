@@ -4,7 +4,7 @@ drawBackground()
 let N = 13
 let i = 0
 while (i < N) {
-    drawSquare(10+i*30, 10+i*30)
+    drawSquare(10+i*30, 10+12*30-i*30)
     ++i; // i = i + 1; i += 1, i++
 }
 
